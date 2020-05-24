@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
         if !new_array[name][key]
           new_array[name][key] = []
         end
+        if 
         binding.pry
       end
     end
