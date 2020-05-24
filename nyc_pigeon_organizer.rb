@@ -11,7 +11,8 @@ def nyc_pigeon_organizer(data)
         if !new_array[name][key]
           new_array[name][key] = []
         end
-        if 
+        if names.include?(name)
+          new_array[name][key] << inner_key.to_s
         binding.pry
       end
     end
