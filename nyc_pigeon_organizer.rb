@@ -7,6 +7,8 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !new_array[name]
           new_array[name] = {}
+        end
+        if !new_array[name][key]
           new_array[name][key] = []
           new_array[name][key] << inner_key.to_s
         else
@@ -14,7 +16,6 @@ def nyc_pigeon_organizer(data)
         end
       end
     end
-    binding.pry
   end
 end
   
