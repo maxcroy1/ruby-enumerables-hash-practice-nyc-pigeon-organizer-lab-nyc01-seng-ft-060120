@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
         end
         if !new_array[name][key]
           new_array[name][key] = []
+          new_array[name][key] = []
           new_array[name][key] << inner_key.to_s
         else
           new_array[name][key] << inner_key.to_s
