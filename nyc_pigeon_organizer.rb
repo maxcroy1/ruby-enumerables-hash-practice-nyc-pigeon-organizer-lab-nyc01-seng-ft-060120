@@ -16,8 +16,8 @@ def nyc_pigeon_organizer(data)
         end
       end
     end
-    new_array
   end
+  final_results
   binding.pry
 end
   
